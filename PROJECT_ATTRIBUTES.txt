@@ -1,0 +1,19 @@
+Attributes:
+
+    0-Gender (Column C - Male '1' Female '0')
+    1-Age<25  (Column D - for age > 25 '0' for age < 25 '1')
+    2-Age_between_26_and_35  (Column D - for age between 25 and 36 '1' otherwise '0')
+    3-Age>36 (Column D - for age >= 36 '1' otherwise '0')
+    4-Group of 2 (only if Column J =  1 '1' otherwise '0')
+    5-Group of 3 (only if Column J = 2 '1' otherwise '0')
+    6-Group of 4 (only if Column J = 3 '1' otherwise '0')
+    7-Group of 5 or more (if column J >= 4 then '1' otherwise '0')
+    8-Advertisement or Referral (column N - advertisement '0' referral '1')
+    9-Weekend_visit (column E - weekend '1' otherwise '0')
+    10-Inquired about loan (column M - loan funding '1' own fund '0')
+    11-Current owner of any vehicle (column K - No '0' Yes '1')
+    12-Owns same brand vehicle (column L - same brand '1' otherwise '0' --- cannot be 1 if current owner is 0 )
+    13-Label - purchased(1) or not(0) (column P - Purchased '1' not purchased '0')
+
+Expected representation in binary data file
+1 1 0 0 0 0 1 0 1 0 0 1 1 1
